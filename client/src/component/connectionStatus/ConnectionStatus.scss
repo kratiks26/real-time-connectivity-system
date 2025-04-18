@@ -1,0 +1,31 @@
+.status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+    .indicator {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+  }
+  
+  .online {
+    .indicator {
+      background-color: #28a745;
+    }
+  }
+  
+  .offline {
+    .indicator {
+      background-color: #dc3545;
+    }
+  }
